@@ -607,6 +607,8 @@ Multi-agent coordination, swarm patterns, and autonomous execution loops. Sorted
 
 - **[the-perfect-orchestrator](https://github.com/daman8271/the-perfect-orchestrator)** `⭐ 1` — One lead Claude Code session commands N autonomous workers in tmux panes — spawn, brief, monitor, then adversarially verify results. Pure bash + tmux, zero daemons, coordination via plain files. Also a Claude Code plugin shipping the `/orch` skill. MIT.
 
+- **[LocalCodeForge](https://github.com/BMDPLAinsong/LocalCodeForge)** `⭐ 0` — C#/.NET local coding agent kernel (30B Qwen3-Coder via Ollama, no cloud). Injects the real symbol table — type inventories with member signatures + access modifiers — before generation (engineering facts as **data, not prompts**); pre-write type-conflict guard; closed plan → write → build → locate → fix → run loop; on repeated failure, **automatic rollback** to task-id isolated backups. CLI + web dashboard with live task stream, backup diff, rollback. E2E 7/7, 864 deterministic tests, 3 consecutive green incremental-task runs (68s / 69s / 121s). MIT.
+
 ### Agent infrastructure
 
 Sandboxes, routers, browser/terminal automation, and extension tools. Sorted by GitHub stars.
